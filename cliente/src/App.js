@@ -1,9 +1,9 @@
 import './App.css';
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar"; // tu componente de menú deslizable
-import IniSesion from "./pages/iniSesion";
-import Inmobiliaria from "./pages/inmobiliaria";
+import Navbar from "./componentes/navbar"; // tu componente de menú deslizable
+import IniSesion from "./paginas/iniSesion";
+import Inmobiliaria from './paginas/inmobiliaria';
 
 function App() {
   return (
